@@ -1,19 +1,23 @@
-# Landing Page Project
+# Weather-Journal App Project
 
-The code in this repository is meant to satisfy the project # 2 rubric of the Front Ent Web Developer nanodegree.
-Landing page is the conversion of a static page to a page that allows some sort of interaction. The dynamicity is achieved through javascript.
+#weather journal app
+# 2 rubric of web weather app nanodegree.
+weather journal app is the app which bring the weather temprature and date after writing the zip code of the country.
 
-___
+Starter code taken from udacity [repository](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app).
 
+after following the project rubric from Udacity i finished it 
+(https://review.udacity.com/#!/rubrics/2655/view)
+## Overview
+I have just created This project
+#install
+express & body-parser&cors 
+I created an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This program will apear the data and the temprature of the country after clicking on the generator button 
+ 
 
-Starter code taken from udacity [repository](https://github.com/udacity/fend/tree/refresh-2019/projects/landing-page).
+## Instructions
+I modified the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
 
-This project has the scope of converting a static web page in a single interactive page.
-
-It uses javascript to dynamically create navbar links based on the content, when a section is in the viewport it show the active state of that section.
-
-
-During the scrolling the navbar is automatically hidden and showed according the direction of the scrolling.
-
-
-When scrolling past a configurable buffer, a new element will appear close to the bottom of the page. This element can be used by the users to scroll to the very top of the page.
+## Extras
+If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
